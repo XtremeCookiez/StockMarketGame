@@ -25,6 +25,7 @@ namespace StockMarket.Markets
         private double _economicInfluence;
         private StockMarket.Geography.Location _primaryLocation;
         private string _name;
+        private double _coeffecient;
 
         public string name
         {
@@ -35,6 +36,21 @@ namespace StockMarket.Markets
             set
             {
                 _name = value;
+            }
+        }
+
+        /// <summary>
+        /// How the value of this market changes the profitability of the companies within the market.
+        /// </summary>
+        public double profitabilitycoeffecient
+        {
+            get
+            {
+                return _coeffecient;
+            }
+            set
+            {
+                _coeffecient = value;
             }
         }
 
@@ -77,18 +93,6 @@ namespace StockMarket.Markets
             }
         }
 
-    }
-
-    public class Markets
-    {
-        public List<Market> _markets = new List<Market>();
-
-        public Markets()
-        {
-
-        }
-
-        
     }
 
 }

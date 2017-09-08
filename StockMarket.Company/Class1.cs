@@ -52,7 +52,23 @@ namespace StockMarket.Company
     public class Company
     {
         private Double _startupProbability = 0.85;
+        private string _name;
 
+        public string name
+        {
+            get
+            {
+                return _name;
+            }
+        }
+
+        public double stockValue
+        {
+            get
+            {
+                return 0.0;
+            }
+        }
     }
     /// <summary>
     /// Class for holding multiple Company objects.

@@ -8,5 +8,12 @@ namespace StockMarket.Geography
 {
     public class Location
     {
+        public string name
+        {
+            get
+            {
+                return "";
+            }
+        }
     }
 }
