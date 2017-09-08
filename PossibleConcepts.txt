@@ -1,7 +1,8 @@
 Probabilities
 	Startup - 85% down, 15% up
 	Monopolies - 50% down, 50% up
-	Normal - 35% down, 65% up
+	Small business - 35% down, 65% up
+	Large business - 25% down, 75% up
 
 Definitions 
 	Startup - less than 1% market share
@@ -11,5 +12,5 @@ Definitions
 	Corporation - 25-70% market share
 	
 Disasters
-	Natrual - 4% of market has large dip (40-70%), rest of market has small dip (3-7%)
+	Natrual - 1-4% of market has large dip (40-70%), rest of market has small dip (3-7%)
 	
