@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketSim", "StockMarketSim\StockMarketSim.csproj", "{EED3758F-CA88-472B-9CD4-75FB0AAD5090}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.Math", "StockMarket.Math\StockMarket.Math.csproj", "{D673FF4F-C792-4B01-B199-AF8D80FA7EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.Markets", "StockMarket.Markets\StockMarket.Markets.csproj", "{B49665DD-138A-4EB5-934A-35B2964AE796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.Geography", "StockMarket.Geography.Location\StockMarket.Geography.csproj", "{ED8FC59F-A302-4963-A338-F1E16438D73B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D673FF4F-C792-4B01-B199-AF8D80FA7EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D673FF4F-C792-4B01-B199-AF8D80FA7EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D673FF4F-C792-4B01-B199-AF8D80FA7EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49665DD-138A-4EB5-934A-35B2964AE796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49665DD-138A-4EB5-934A-35B2964AE796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49665DD-138A-4EB5-934A-35B2964AE796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49665DD-138A-4EB5-934A-35B2964AE796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8FC59F-A302-4963-A338-F1E16438D73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8FC59F-A302-4963-A338-F1E16438D73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8FC59F-A302-4963-A338-F1E16438D73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8FC59F-A302-4963-A338-F1E16438D73B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
