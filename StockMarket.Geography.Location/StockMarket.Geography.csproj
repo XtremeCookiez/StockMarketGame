@@ -7,8 +7,8 @@
     <ProjectGuid>{ED8FC59F-A302-4963-A338-F1E16438D73B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StockMarket.Geography.Location</RootNamespace>
-    <AssemblyName>StockMarket.Geography.Location</AssemblyName>
+    <RootNamespace>StockMarket.Geography</RootNamespace>
+    <AssemblyName>StockMarket.Geography</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
