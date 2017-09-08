@@ -9,7 +9,9 @@ Definitions
 	Small business - 2-5% market share
 	Large business - 5-25% market share
 	Corporation - 25-70% market share
+
+Requirements for 
 	
 Disasters
-	Natrual - 4% of market has large dip (40-70%), rest of market has small dip (3-7%)
-	
+	Natural - 4% of market has large dip (40-70%), rest of market has small dip (3-7%)
+	Resource
